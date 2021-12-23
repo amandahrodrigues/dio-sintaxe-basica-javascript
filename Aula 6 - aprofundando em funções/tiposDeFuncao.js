@@ -1,0 +1,40 @@
+// tipos de função
+
+// função declarativa
+// deve ser declarada usando a palavra reservada function seguida do nome da funçao, parênteses "()" e chaves "{}"
+// deve ser nomeada obrigatioriamente
+
+function nomeDaFuncao() {
+    alert('Sou uma função declarativa!');
+}
+
+nomeDaFuncao();
+
+
+// expressão de função
+// são funções atribuídas à expressões
+// a nomeação é opcional
+
+// com nomeação
+var funcao = function funcao() {
+    alert('Sou uma expressão de função nomeada!');
+}
+
+funcao();
+
+// sem nomeação
+var funcao = function() {
+    alert('Sou uma expressão de função não nomeada!')
+}
+
+funcao();
+
+// arrow Function
+// função de expressão de sintaxe curta
+// sempre anônima, não pode ser nomeada
+// deve ser declarada com parênteses "()", seguido de "=>" e depois chaves "{}"
+var funcao = () => {
+    alert('Sou uma função anônima!')
+};
+
+funcao();
