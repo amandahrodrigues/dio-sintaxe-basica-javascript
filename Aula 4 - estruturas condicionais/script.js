@@ -8,7 +8,9 @@ var jogador1 = 0;
 var jogador2 = 1;
 var placar;
 
-/*if(jogador1 != -1){
+// aninhamento de if's
+
+if(jogador1 != -1){
     if (jogador1 > 0){
         console.log('Jogador 1 marcou ponto!');
     } else if(jogador2 > 0){
@@ -16,10 +18,10 @@ var placar;
     } else {
         console.log('Ninguém marcou ponto!')
     }
-}*/
+}
 
 // if ternário
-/*jogador1 != -1 && jogador2 != -1 ? console.log('os jogadores são válidos') : console.log('os jogadores não são válidos')
+jogador1 != -1 && jogador2 != -1 ? console.log('os jogadores são válidos') : console.log('os jogadores não são válidos')
 
 if (jogador1 > 0 && jogador2 == 0) {
     console.log('o jogador 1 marcou ponto');
@@ -45,7 +47,7 @@ switch (placar) {
         break;
     default:
         console.log('ninguem ganhou')
-}*/
+}
 
 // estruturas de repetição
 
@@ -53,7 +55,7 @@ let array = ['valor1', 'valor2', 'valor3', 'valor4', 'valor5']
 
 let object = { propriedade1: '12', propriedade2: 'valor2', propriedade3: 'valor3'}
 
-// for - executa até que seja false
+// for - executa uma instrução até que seja false
 for (let i = 0; i < array.length; i++) {
     console.log(i);
 }
